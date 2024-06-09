@@ -1,5 +1,5 @@
 # FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework
-<p>
+<p style="align-items: center;">
     <img style="margin: auto;" width="720" alt="Example" src="img/teaser.png"/>
 </p>
 
