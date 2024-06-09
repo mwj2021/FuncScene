@@ -11,7 +11,7 @@ This repository contains the code that accompanies our paper [FuncScene: Functio
 - Pytorch 1.8.1
 - Numpy 1.21.6
 - Torchvision 0.8.2
-- pytorch-fast-transformers 0.4.0
+- Pytorch-fast-transformers 0.4.0
 - WxPython 4.1.1
 
 ## Dataset
