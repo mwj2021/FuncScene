@@ -1,6 +1,6 @@
 # FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework
 <p>
-    <img width="240" alt="Example" src="img/teaser.pdf"/>
+    <pdf width="240" alt="Example" src="img/teaser.pdf"/>
 </p>
 
 This repository contains the code that accompanies our paper [FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework](https://wutomwu.github.io/particulars.html?id=6).
