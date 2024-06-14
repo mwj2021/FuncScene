@@ -15,10 +15,10 @@ This repository contains the code that accompanies our paper [FuncScene: Functio
 - WxPython 4.1.1
 
 ## Dataset
-We use the [3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) dataset and the [3D-FUTURE](https://www.google.com/search?q=3d-future&oq=3d-fut&aqs=chrome.1.69i57j0j0i30l8.3909j0j7&sourceid=chrome&ie=UTF-8) dataset with some preprocessing.
+We use the [3D-FRONT](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-scene-dataset) dataset and the [3D-FUTURE](https://www.google.com/search?q=3d-future&oq=3d-fut&aqs=chrome.1.69i57j0j0i30l8.3909j0j7&sourceid=chrome&ie=UTF-8) dataset with some preprocessing. These data processing procedures are described in detail in our paper. Our model rendering refers to the ATISS code.
 
 ## Train
-Run "train.py".
+Our model is divided into three modules: functional category prediction, function group generation and function group instantiation. You can directly run the "main.py" file to train and generate indoor scenes.
 
 ## Test
-Run "test.py".
+After the model training is completed, you will get the "funcscene.pth" file, you only need to slightly modify the "main.py" file to load the model parameters to generate the indoor scene.
